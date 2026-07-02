@@ -1,0 +1,16 @@
+name: Generate content index
+on:
+  push:
+    paths:
+      - 'content/**'
+      - '!content/index.json'
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash scripts/generate-index.sh
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update content/index.json"
+          file_pattern: content/index.json
