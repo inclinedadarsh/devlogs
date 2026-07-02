@@ -4,6 +4,7 @@ on:
     paths:
       - 'content/**'
       - '!content/index.json'
+      - '.github/workflows/generate-index.yml'
 permissions:
   contents: write
 jobs:
