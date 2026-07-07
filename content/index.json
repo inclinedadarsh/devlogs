@@ -8,5 +8,20 @@
     "title": "devlog setup and started llm from scratch book",
     "description": "first daily entry on website work and revisiting pytorch datasets",
     "date": "2026-07-02"
+  },
+  "5.md": {
+    "title": "how systems work in prod?",
+    "description": "studied and setup wemakedevs' system for prod",
+    "date": "2026-07-06"
+  },
+  "6.md": {
+    "title": "desk bot inception",
+    "description": "decided to build a desk bot with a screen face",
+    "date": "2026-07-06"
+  },
+  "7.md": {
+    "title": "self attention from scratch",
+    "description": "simplified self attention and self attention implemented from scratch",
+    "date": "2026-07-07"
   }
 }
